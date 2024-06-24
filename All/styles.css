@@ -1,0 +1,1499 @@
+/* First Hero section */
+
+body {
+    font-family: 'Power Grotesk Trial', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container1 {
+    background-color: #fdd835;
+    padding-top: 50px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-logo {
+    height: 30px;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin-left: 130px;
+    border-radius: 10px;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #170F49;
+    font-family: "DM Sans";
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header-buttons {
+    float: right;
+}
+
+.login-btn, .get-started-btn {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #c1b4b45c;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 15px;
+    font-family: "DM Sans";
+}
+
+.get-started-btn {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    /* padding: 40px 0; */
+    padding: 40px 0px 0px 0px;
+}
+
+.hero-text {
+    flex: 1;
+    color: #333;
+    margin-top: -90px;
+}
+
+.subtitle {
+    display: block;
+    color: #1E1E1E;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    /* margin-right: 290px; */
+    text-align: left;
+    font-family: "Power Grotesk Trial";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    color: #170F49;
+    /* margin-right: 160px; */
+    text-align: left;
+    font-family: "Power Grotesk Trial";
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero p {
+    margin-bottom: 40px;
+    color: #6F6C90;
+    /* margin-right: 110px; */
+    text-align: left;
+    font-family: "Power Grotesk Trial";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.email-form-wrapper {
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.email-form {
+    display: inline-block;
+    position: relative;
+}
+
+.email-form input {
+    padding: 10px 20px;
+    width: 300px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    padding-right: 120px; 
+    font-size: 16px;
+    height: 40px;
+}
+
+.email-form button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 20px;
+    font-family: "DM Sans";
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: start;
+}
+
+.tag-item {
+    padding: 10px 26px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fdd835;
+    font-family: "DM Sans";
+}
+
+.tick-mark {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.hero-image {
+    position: relative;
+    flex: 1;
+    text-align: right;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-thumbnail {
+    position: absolute;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.top-left {
+    top: 20px;
+    left: -20px;
+    width: auto;
+}
+
+.top-right {
+    top: 350px;
+    right: -90px;
+    width: auto;
+}
+
+.bottom-left {
+    bottom: 80px;
+    left: -100px;
+    width: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        margin-top: 0;
+    }
+
+    .hero-image {
+        text-align: center;
+    }
+
+    .video-thumbnail {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+
+/* Second Course section */
+
+
+.courses {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.topper {
+    display: flex;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    width: 250px;
+    display: flex;
+    font-family: "Power Grotesk Trial";
+    
+}
+
+/* .head2 {
+    display: flex;
+} */
+
+.course-header {
+
+    display: flex;
+}
+
+.explore-course-btn {
+    /* margin: auto auto 40px 850px; */
+    margin: auto 20px 40px 650px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 96px;
+    cursor: pointer;
+    font-family: "DM Sans";
+}
+
+.explore-course-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.courses-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.course-card img {
+    width: 100%;
+    height: auto;
+}
+
+.course-details {
+    padding: 20px;
+    position: relative;
+    padding: 20px 6px;
+}
+
+.course-tag {
+    display: inline-block;
+    background-color: #dcdcdc;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+    position: relative;
+    margin-right: 190px;
+    font-family: "DM Sans";
+    width: max-content;
+}
+
+.course-price {
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    padding: 20px;
+    font-family: "Power Grotesk Trial";
+}
+
+.current-price {
+    color: #000;
+    font-weight: bold;
+    
+}
+
+.original-price {
+    /* color: #888; */
+    text-decoration: line-through;
+    display: block;
+    font-size: 12px;
+}
+
+.course-meta {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Power Grotesk Trial";
+}
+
+.course-meta span {
+    margin-right: 15px;
+}
+
+.course-title {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: "Power Grotesk Trial";
+}
+
+.view-course-btn {
+    display: inline-block;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 220px;
+    font-family: "Power Grotesk Trial";
+}
+
+.view-course-btn:hover {
+    background-color: #f0f0f0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section-title {
+        margin-left: auto; 
+        margin-right: auto;
+        width: 100%;
+        text-align: center; 
+    }
+
+    .explore-course-btn {
+        margin: auto; 
+        margin-bottom: 40px; 
+    }
+
+    .courses-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .course-card {
+        width: 80%; 
+    }
+
+    .course-tag {
+        margin-right: 0; 
+    }
+
+    .view-course-btn {
+        margin-right: 0; 
+    }
+}
+
+
+/* Course Suitable section */
+
+.suitable-courses {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.suitable-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 300px;
+    font-family: 'Power Grotesk Trial';
+}
+
+.suitable-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    position: relative;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.suitable-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-icon {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+}
+
+.suitable-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 94%;
+}
+
+.suitable-item {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    padding: 20px;
+    text-align: left;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.suitable-icon-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.suitable-icon-bg {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.suitable-icon {
+    width: 24px;
+    height: 24px;
+    /* background-color: #EEE8E8; */
+}
+
+.suitable-item-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+    font-family: 'Power Grotesk Trial';
+}
+
+.suitable-item-text {
+    font-size: 14px;
+    color: #545454;
+    text-align: left;
+    width: 100%;
+    font-family: "DM Sans";
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .suitable-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .suitable-title {
+        margin-left: 0px;
+    }
+
+
+    .suitable-item {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Collab Team section */
+
+body {
+    font-family: "Power Grotesk Trial", 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #fff; */
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.steps {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.steps-title {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 40px;
+    margin-left: 225px;
+    font-family: "Power Grotesk Trial";
+    font-weight: 800;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.step-item {
+    flex: 1;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+    font-size: 38px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: "Power Grotesk Trial";
+}
+
+.step-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: left;
+    font-family: "Power Grotesk Trial";
+}
+
+.step-number::after {
+    content: '';
+    display: block;
+    width: 180px;
+    height: 3px;
+    background-color: #fdd835;
+    margin: 5px 0px;
+    text-align: left;
+}
+
+.step-description {
+    font-size: 16px;
+    color: #545454;
+    text-align: left;
+    font-family: "DM Sans";
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .steps-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step-item {
+        max-width: 600px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .steps-title {
+        font-size: 24px;
+        margin-left: 0px;
+    }
+
+    .step-number {
+        font-size: 30px;
+    }
+
+    .step-title {
+        font-size: 16px;
+    }
+
+    .step-description {
+        font-size: 14px;
+    }
+
+    .step-number::after {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .steps-title {
+        font-size: 20px;
+    }
+
+    .steps-container {
+        gap: 20px;
+    }
+
+    .step-item {
+        padding: 15px 10px;
+    }
+
+    .step-number {
+        font-size: 24px;
+    }
+
+    .step-title {
+        font-size: 14px;
+    }
+
+    .step-description {
+        font-size: 12px;
+    }
+
+    .step-number::after {
+        width: 120px;
+    }
+}
+
+/* Testimonial Section */
+
+body {
+    font-family: "Power Grotesk Trial", 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #fff; */
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.testimonial {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 15px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.testimonial-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #fdd835;
+    padding: 20px;
+}
+
+.testimonial-text {
+    max-width: 100%;
+    text-align: left;
+}
+
+.quote {
+    font-size: 88px;
+    color: #fdd835;
+    line-height: 0.5;
+    margin-bottom: 20px;
+}
+
+.testimonial-text p {
+    font-size: 20px;
+    color: #333;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: "Power Grotesk Trial";
+}
+
+.testimonial-text strong {
+    margin-left: 15px;
+    font-family: "Power Grotesk Trial";
+    color: #747474;
+}
+
+.testimonial-text span {
+    font-size: 13px;
+    margin-left: 10px;
+    font-family: "Power Grotesk Trial";
+    color: #B4B4B4;
+}
+
+/* .author {
+    font-size: 16px;
+    color: #666;
+} */
+
+.navigation-buttons {
+    margin-top: 20px;
+}
+
+.nav-btn {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.prev-btn {
+    border: 2px solid #938d8d;
+    color: #938d8d;
+}
+
+.nav-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .testimonial-content {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .testimonial-image img {
+        width: 250px;
+    }
+
+    .testimonial-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .quote {
+        font-size: 72px;
+    }
+
+    .testimonial-text p {
+        font-size: 16px;
+    }
+
+    .testimonial-text strong,
+    .testimonial-text span {
+        margin-left: 0;
+        display: block;
+    }
+
+    .author {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .testimonial {
+        padding: 30px 0;
+    }
+
+    .testimonial-content {
+        gap: 20px;
+    }
+
+    .testimonial-image img {
+        width: 200px;
+    }
+
+    .quote {
+        font-size: 60px;
+    }
+
+    .testimonial-text p {
+        font-size: 14px;
+    }
+
+    .author {
+        font-size: 12px;
+    }
+
+    .nav-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonial-content {
+        padding: 20px;
+    }
+
+    .testimonial-image img {
+        width: 150px;
+        padding: 15px;
+    }
+
+    .quote {
+        font-size: 48px;
+    }
+
+    .testimonial-text p {
+        font-size: 12px;
+    }
+
+    .author {
+        font-size: 10px;
+    }
+
+    .nav-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
+
+
+/* Consultation section */
+
+body {
+    font-family: "Power Grotesk Trial", 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #000;
+    color: #fff; */
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.consultation {
+    /* padding: 50px 0; */
+    padding: 50px 0px 30px 0px;
+    background-color: #000;
+    color: #fff;
+}
+
+.consultation-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.consultation-text {
+    max-width: 50%;
+    margin-top: 80px;
+}
+
+.consultation-text h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-family: "Power Grotesk Trial";
+}
+
+.consultation-text p {
+    font-size: 20px;
+    color: #8F8F8F;
+    font-family: "Power Grotesk Trial";
+}
+
+.consultation-form {
+    background-color: #fff;
+    color: #000;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 350px; 
+}
+
+.consultation-form h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-family: "Power Grotesk Trial";
+}
+
+.consultation-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.consultation-form input,
+.consultation-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.consultation-form input::placeholder,
+.consultation-form textarea::placeholder {
+    color: #aaa;
+    font-size: 16px;
+    font-family:  'Arial', sans-serif;
+}
+
+.consultation-form textarea.last-input {
+    height: 100px; 
+}
+
+.consultation-form button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 55px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100px; 
+    align-self: flex-end; 
+    font-family: "DM Sans";
+}
+
+.consultation-form button:hover {
+    background-color: #333;
+}
+
+.quote {
+    position: absolute;
+    /* width: 40px;
+    height: 40px;
+    font-size: 140px; */
+}
+
+.left-quote {
+    /* top: 10px;
+    right: -50px; */
+    top: -20px;
+    right: -60px;
+    height: 60px;
+    width: auto;
+}
+
+.right-quote {
+    bottom: -50px;
+    /* left: -50px; */
+    left: -770px;
+    height: 60px;
+    width: auto;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .consultation-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .consultation-text {
+        max-width: 100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .consultation-form {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .left-quote {
+        top: 5px;
+        right: -25px;
+        width: 30px;
+        height: 30px;
+        
+    }
+
+    .right-quote {
+        bottom: -25px;
+        left: -25px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .consultation {
+        padding: 30px 0;
+    }
+
+    .consultation-text h2 {
+        font-size: 28px;
+    }
+
+    .consultation-text p {
+        font-size: 16px;
+    }
+
+    .consultation-form {
+        padding: 20px;
+    }
+
+    .consultation-form h3 {
+        font-size: 20px;
+    }
+
+    .consultation-form input,
+    .consultation-form textarea {
+        font-size: 14px;
+    }
+
+    .consultation-form button {
+        width: auto;
+        font-size: 14px;
+    }
+
+    .left-quote,
+    .right-quote {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .consultation-content {
+        padding: 20px;
+    }
+
+    .consultation-text h2 {
+        font-size: 24px;
+    }
+
+    .consultation-text p {
+        font-size: 14px;
+    }
+
+    .consultation-form {
+        padding: 15px;
+    }
+
+    .consultation-form h3 {
+        font-size: 18px;
+    }
+
+    .consultation-form input,
+    .consultation-form textarea {
+        font-size: 12px;
+    }
+
+    .consultation-form button {
+        width: auto;
+        font-size: 12px;
+    }
+
+    .left-quote,
+    .right-quote {
+        font-size: 80px;
+    }
+}
+
+/* Graduate Work */
+
+body {
+    font-family: "Power Grotesk Trial", 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #fff; */
+    /* color: #000; */
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.graduates-work {
+    padding: 50px 0;
+    background-color: #fff;
+    color: #000;
+}
+
+.graduates-work h2 {
+    font-size: 38px;
+    margin-bottom: 40px;
+    color: #000;
+    margin-left: 310px;
+    font-family: "Power Grotesk Trial";
+    font-weight: 800;
+}
+
+.companies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-items: center;
+    margin-left: 110px;
+}
+
+.company {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 170px;
+}
+
+.company img {
+    max-width: 100px;
+    max-height: 60px;
+}
+
+.company:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .companies {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .graduates-work h2 {
+        font-size: 28px;
+        margin-left: 0px;
+    }
+
+    .companies {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .company {
+        width: 150px;
+        padding: 15px;
+    }
+
+    .company img {
+        max-width: 80px;
+        max-height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .graduates-work {
+        padding: 30px 0;
+    }
+
+    .graduates-work h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        /* margin-left: 0px; */
+    }
+
+    .companies {
+        grid-template-columns: 1fr;
+    }
+
+    .company {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .company img {
+        max-width: 60px;
+        max-height: 40px;
+    }
+}
+
+/* Footer section */
+
+body {
+    font-family: "Power Grotesk Trial", 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #fff;
+    color: #000; */
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0 20px;
+    font-size: 14px;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.first {
+    display: flex;
+}
+
+.main-logo {
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.footer-section h2,
+.footer-section h3 {
+    color: #fdd835;
+    margin-bottom: 20px;
+    font-family: "DM Sans";
+    font-size: 17px;
+}
+
+.footer-section h2 {
+    color: #fff;
+    font-family: "DM Sans";
+    font-size: 22px;
+}
+
+.footer-section p {
+    color: #fff;
+    width: 220px;
+    text-align: left;
+    font-family: "DM Sans";
+}
+
+.footer-section .socials {
+    text-align: left;
+}
+
+.footer-section .socials a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-section .socials a img {
+    width: 14px;
+}
+
+.space {
+    margin-left: 28px;
+}
+
+.face {
+    height: 14px;
+}
+
+.footer-section.links ul,
+.footer-section.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section.links ul {
+    width: 100px;
+}
+
+.footer-section.contact ul {
+    width: 180px;
+}
+
+.footer-section.links ul li,
+.footer-section.contact ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section.links ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "DM Sans";
+}
+
+.footer-section.links ul li a:hover {
+    color: #fdd835;
+}
+
+.footer-section.contact ul li img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-bottom-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom-left p {
+    margin: 0;
+    color: #6F6C90;
+    font-family: "DM Sans";
+    
+}
+
+.footer-bottom-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom-right p {
+    margin: 0;
+    margin-left: 520px;
+}
+
+.footer-bottom-right a {
+    color: #fdd835;
+    text-decoration: none;
+}
+
+.footer-bottom-right a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    .footer-section {
+        margin: 20px 0;
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        margin: 20px 0;
+        flex-basis: 100%;
+    }
+
+    .footer-section.socials {
+        text-align: center;
+    }
+
+    .footer-section.links,
+    .footer-section.contact {
+        text-align: center;
+    }
+
+    .footer-section.links ul li,
+    .footer-section.contact ul li {
+        text-align: left;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-bottom-left,
+    .footer-bottom-right {
+        margin-bottom: 10px;
+    }
+
+    .footer-bottom-right p {
+        margin-left: 0px;
+    }
+}
+
+
+
